@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <top-nav />
+  <!-- ====== Main Section Start -->
+  <main>
+    <router-view />
+  </main>
+  <!-- ====== Main Section End -->
+  <bottom-nav />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import topNav from "./components/Nav.vue";
+import bottomNav from "./components/Footer.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { topNav, bottomNav },
+  data() {
+    return {
+      copyDate: new Date().getFullYear(),
+    };
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
