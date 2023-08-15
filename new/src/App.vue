@@ -16,7 +16,7 @@ export default {
   components: { topNav, bottomNav },
   data() {
     return {
-      copyDate: new Date().getFullYear(),
+      //
     };
   },
 };

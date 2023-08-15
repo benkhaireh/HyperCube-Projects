@@ -136,7 +136,7 @@
           >
             <div class="h-[500px] w-full">
               <iframe
-                src="https://maps.google.com/maps?q=H4CW+R6F,Cite-aviation,Djibouti&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=hypercube,%20cite%20avaition,%20djibouti+(hypercube)&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
                 frameborder="0"
                 allowfullscreen

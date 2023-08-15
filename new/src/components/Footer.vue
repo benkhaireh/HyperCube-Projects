@@ -41,7 +41,7 @@ export default {
     name: "FooterComp",
     data() {
         return {
-            //
+          copyDate: new Date().getFullYear(),
         }
     }
 }
