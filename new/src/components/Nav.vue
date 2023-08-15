@@ -51,14 +51,14 @@
           <li>
             <router-link
               to="/home"
-              class="block py-2 pl-3 pr-4  rounded md:bg-transparent md:p-0"
+              class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
               :class="[
                 $route.path == '/'
                   ? 'text-white bg-pink-700 md:text-pink-700'
-                  : 'text-gray-900 hover:bg-gray-100 md:hover:text-pink-700',
-                  $route.path == '/home'
+                  : 'text-gray-900 md:hover:text-pink-700',
+                $route.path == '/home'
                   ? 'text-white bg-pink-700 md:text-pink-700'
-                  : 'text-gray-900 hover:bg-gray-100 md:hover:text-pink-700',
+                  : 'text-gray-900 md:hover:text-pink-700',
               ]"
               aria-current="page"
               >Accueil</router-link
@@ -67,21 +67,33 @@
           <li>
             <router-link
               to="/services"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-700 md:p-0"
+              class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              :class="
+                $route.path == '/services'
+                  ? 'text-white bg-pink-700 md:text-pink-700'
+                  : 'text-gray-900 md:hover:text-pink-700'"
               >Nos Services</router-link
             >
           </li>
           <li>
             <router-link
               to="/about"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-700 md:p-0"
+              class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              :class="
+                $route.path == '/about'
+                  ? 'text-white bg-pink-700 md:text-pink-700'
+                  : 'text-gray-900 md:hover:text-pink-700'"
               >À Propos</router-link
             >
           </li>
           <li>
             <router-link
               to="/contact"
-              class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-700 md:p-0"
+              class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+              :class="
+                $route.path == '/contact'
+                  ? 'text-white bg-pink-700 md:text-pink-700'
+                  : 'text-gray-900 md:hover:text-pink-700'"
               >Nous Contacter</router-link
             >
           </li>

@@ -143,7 +143,7 @@
       <div
         class="shadow-lg xl:p-6 p-4 w-48 sm:w-auto w-full bg-white sm:absolute relative z-20 sm:mt-0 mt-4 xl:mt-80 sm:mt-56 xl:-ml-0 sm:-ml-12"
       >
-        <p class="text-3xl font-semibold text-gray-800">80%+</p>
+        <p class="text-3xl font-semibold text-gray-800">95%+</p>
         <p class="text-base leading-4 xl:mt-4 mt-2 text-gray-600 capitalize">
           Taux de Rétention Des Clients
         </p>
