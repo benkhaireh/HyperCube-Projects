@@ -23,9 +23,9 @@
               <li>
                 <a
                   href="javascript:void(0)"
-                  class="bg-pink-700 inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-bold text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
+                  class="bg-pink-700 inline-flex items-center justify-center rounded-lg py-2 px-6 text-center text-base font-bold text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10 text-sm"
                 >
-                  Demander Un Devis
+                  En Savoir Plus
                 </a>
               </li>
             </ul>
@@ -205,11 +205,10 @@
               </svg>
             </div>
             <h4 class="text-dark mb-3 text-xl font-semibold">
-              Refreshing Design
+              Service de Consulting
             </h4>
             <p class="text-body-color">
-              We dejoy working with discerning clients, people for whom qualuty,
-              service, integrity & aesthetics.
+              Notre équipe de spécialistes expérimentés est prête à collaborer avec vous pour élaborer des stratégies informatiques sur mesure. Que vous cherchiez à améliorer votre efficacité opérationnelle, à optimiser vos ressources technologiques ou à aligner vos systèmes sur vos objectifs commerciaux, nos experts vous guideront à chaque étape du processus.
             </p>
           </div>
         </div>
@@ -1036,100 +1035,84 @@
   <!-- ====== Customer Section Start -->
   <section class="overflow-hidden pt-20 pb-12 lg:pt-[80px] lg:pb-[90px]">
     <div class="container mx-auto">
-      <div class="-mx-4 flex flex-wrap items-center justify-between">
-        <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
-          <div class="mt-10 lg:mt-0">
+      <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
             <h2
-              class="text-dark mb-8 text-3xl font-bold sm:text-4xl capitalize"
+              class="text-dark mb-8 text-2xl font-bold sm:text-3xl capitalize"
             >
               Les Entreprises Qui Ont Fait Confiance à Notre Expertise
             </h2>
-            <p class="text-body-color mb-8 text-base">
-              Ne manquez pas l'occasion de réserver dès maintenant votre
-              consultation TIC gratuite. Nos experts passionnés sont prêts à
-              plonger dans les défis uniques de votre entreprise et à élaborer
-              des solutions sur mesure qui vous aideront à innover, à améliorer
-              l'efficacité opérationnelle et à maximiser votre impact sur le
-              marché. Profitez de cette occasion pour discuter de vos objectifs,
-              explorer des stratégies et obtenir des conseils éclairés qui vous
-              positionneront en tête de votre secteur. Réservez votre
-              consultation dès aujourd'hui.
-            </p>
-            <a
-              href="javascript:void(0)"
-              class="bg-pink-700 inline-flex items-center justify-center rounded-lg py-3 px-8 text-center text-base font-bold text-white hover:bg-opacity-90 hover:text-white focus:bg-opcity-90 lg:px-8 xl:px-10"
-            >
-              Réserver Une Consultation
-            </a>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-6/12">
-          <div class="container m-auto grid grid-cols-3 gap-0">
-            <div class="w-full px-8 py-6">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-12 lg:w-32" />
+
+        <div class="w-full px-4">
+          <div class="container m-auto grid grid-cols-4 gap-0">
+            <div class="w-full px-8 py-6 m-auto">
+              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
             </div>
 
-            <div class="w-full px-8 py-6">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-12 lg:w-32" />
+            <div class="w-full px-8 py-6 m-auto">
+              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
             </div>
 
-            <div class="w-full px-8 py-6">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-12 lg:w-32" />
+            <div class="w-full px-8 py-6 m-auto">
+              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
             </div>
 
-            <div class="w-full px-8 py-6">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-12 lg:w-32" />
+            <div class="w-full px-8 py-6 m-auto">
+              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
             </div>
 
-            <div class="w-full px-8 py-6">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-12 lg:w-32" />
+            <div class="w-full px-8 py-6 m-auto">
+              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
             </div>
 
-            <div class="w-full px-8 py-6">
+            <div class="w-full px-8 py-6 m-auto">
               <img
                 src="/fortinet-logo.jpg"
                 alt="Fortinet"
-                class="h-12 lg:w-32"
+                class="h-14 lg:w-36"
               />
             </div>
 
-            <div class="w-full px-8 py-6">
+            <div class="w-full px-8 py-6 m-auto">
               <img
                 src="/fortinet-logo.jpg"
                 alt="Fortinet"
-                class="h-12 lg:w-32"
+                class="h-14 lg:w-36"
               />
             </div>
 
-            <div class="w-full px-8 py-6">
+            <div class="w-full px-8 py-6 m-auto">
               <img
                 src="/fortinet-logo.jpg"
                 alt="Fortinet"
-                class="h-12 lg:w-32"
+                class="h-14 lg:w-36"
               />
             </div>
 
-            <div class="w-full px-8 py-6">
+            <div class="w-full px-8 py-6 m-auto">
               <img
                 src="/fortinet-logo.jpg"
                 alt="Fortinet"
-                class="h-12 lg:w-32"
+                class="h-14 lg:w-36"
               />
             </div>
 
-            <div class="w-full px-8 py-6">
+            <div class="w-full px-8 py-6 m-auto">
               <img
                 src="/fortinet-logo.jpg"
                 alt="Fortinet"
-                class="h-12 lg:w-32"
+                class="h-14 lg:w-36"
               />
             </div>
 
-            <div class="w-full px-8 py-6">
-              <img src="/montran-logo.png" alt="Montran" class="h-12 lg:w-32" />
+            <div class="w-full px-8 py-6 m-auto">
+              <img src="/montran-logo.png" alt="Montran" class="h-14 lg:w-36" />
             </div>
 
-            <div class="w-full px-8 py-6">
+            <div class="w-full px-8 py-6 m-auto">
               <img src="/montran-logo.png" alt="Montran" class="h-11 lg:w-32" />
             </div>
           </div>
