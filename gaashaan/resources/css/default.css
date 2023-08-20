@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Ubuntu-Bold";
+    src: url(../fonts/Ubuntu-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-BoldItalic";
+    src: url(../fonts/Ubuntu-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-Italic";
+    src: url(../fonts/Ubuntu-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url(../fonts/Ubuntu-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-LightItalic";
+    src: url(../fonts/Ubuntu-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url(../fonts/Ubuntu-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-MediumItalic";
+    src: url(../fonts/Ubuntu-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Ubuntu-Regular";
+    src: url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+}
+
+*,
+*::before,
+*::after {
+    transition: all 0.25s;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-size: 95%;
+}
+
+body {
+    font-family: "Ubuntu-Regular";
+    background-color: #282f37;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+button:not[disabled],
+a[role="card"],
+a[role="button"] {
+    transition: all 0.06s;
+}
+
+button:not[disabled]:active,
+a[role="button"]:not[disabled]:active {
+    transform: scale(0.95);
+}
+
+.regular {
+    font-family: "Ubuntu-Regular";
+}
+
+.bold {
+    font-family: "Ubuntu-Bold";
+}
+
+.medium {
+    font-family: "Ubuntu-Medium";
+}
+
+.light {
+    font-family: "Ubuntu-Light";
+}
+
+.italic {
+    font-family: "Ubuntu-Italic";
+}
+
+.bolditalic {
+    font-family: "Ubuntu-BoldItalic";
+}
+
+.mediumitalic {
+    font-family: "Ubuntu-MediumItalic";
+}
+
+.lightitalic {
+    font-family: "Ubuntu-LightItalic";
+}
+
+.banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../banner-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation: FocuS 1s linear 1s infinite;
+    animation: FocuS 1s linear 1s infinite;
+}
+
+@-webkit-keyframes FocuS {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes FocuS {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

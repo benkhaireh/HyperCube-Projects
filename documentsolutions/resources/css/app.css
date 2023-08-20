@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    transition: all 0.25s;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 95%;
+    font-family: "Shantell Sans", cursive !important;
+    font-weight: normal;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+button:not[disabled],
+a[role="card"],
+a[role="button"] {
+    transition: all 0.06s;
+}
+
+button:not[disabled]:active,
+a[role="button"]:not[disabled]:active {
+    transform: scale(0.95);
+}
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #1716e6;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="file"]::-webkit-file-upload-button,
+input[type="file"]::file-selector-button {
+    color: #fff;
+    background-color: rgb(55 65 81);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    border-width: 0px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-inline-start: -1rem;
+    margin-inline-end: 1rem;
+}
+
+input:focus {
+    box-shadow: none;
+}
+
+.title-divider {
+    width: 150px;
+    height: 2px;
+    background: #1716e6;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.title-divider::after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: -7px;
+    margin: 0 auto;
+    border: 3px solid #1716e6;
+}
+
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: white;
+    margin-left: 8px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.input-cursor {
+    animation: blink 0.6s linear infinite alternate;
+}
+
+.hero-section {
+    background-color: rgb(30 41 59);
+    color: #fff;
+    position: relative;
+}
+
+.hero-section:before {
+    content: "";
+    height: 125px;
+    width: 100%;
+    background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/animation-wave-shadow/images/wave.svg)
+        repeat-x scroll 0 0;
+    -webkit-background-size: 1600px 198px;
+    -moz-background-size: 1600px 198px;
+    -o-background-size: 1600px 198px;
+    background-size: 1600px 198px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    -webkit-filter: drop-shadow(5px -10px 3px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px -10px 3px rgba(0, 0, 0, 0.2));
+
+    -webkit-animation: an-wave 20s linear infinite;
+    -moz-animation: an-wave 20s linear infinite;
+    -o-animation: an-wave 20s linear infinite;
+    animation: an-wave 20s linear infinite;
+}
+
+@-webkit-keyframes an-wave {
+    100% {
+        background-position-x: -1600px;
+    }
+}
+@-moz-keyframes an-wave {
+    100% {
+        background-position-x: -1600px;
+    }
+}
+@-o-keyframes an-wave {
+    100% {
+        background-position-x: -1600px;
+    }
+}
+@keyframes an-wave {
+    100% {
+        background-position-x: -1600px;
+    }
+}
