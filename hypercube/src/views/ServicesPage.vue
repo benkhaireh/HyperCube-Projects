@@ -124,7 +124,7 @@
               cx="50.1"
               cy="30.4"
               r="5"
-              class="stroke-primary"
+              class="stroke-pink-700"
               style="fill: transparent; stroke-width: 2; stroke-miterlimit: 10"
             ></circle>
             <line
@@ -132,7 +132,7 @@
               y1="30.4"
               x2="100"
               y2="30.4"
-              class="stroke-primary"
+              class="stroke-pink-700"
               style="stroke-width: 2; stroke-miterlimit: 10"
             ></line>
             <line
@@ -140,7 +140,7 @@
               y1="30.4"
               x2="0"
               y2="30.4"
-              class="stroke-primary"
+              class="stroke-pink-700"
               style="stroke-width: 2; stroke-miterlimit: 10"
             ></line>
           </svg>
@@ -177,11 +177,11 @@
                   viewBox="0 0 16 16"
                 >
                   <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" fill="rgb(190 24 93)"
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
                 Service de Consulting
               </h3>
               <p class="text-gray-500">
@@ -223,7 +223,7 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
                 Réseau &amp; Cablage
               </h3>
               <p class="text-gray-500">
@@ -266,7 +266,7 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
                 Intégration
               </h3>
               <p class="text-gray-500">
@@ -307,7 +307,7 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
                 Sécurité Numérique
               </h3>
               <p class="text-gray-500">
@@ -347,7 +347,7 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
                 Développement Digital
               </h3>
               <p class="text-gray-500">
