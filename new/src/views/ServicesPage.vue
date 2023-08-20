@@ -182,11 +182,11 @@
                 </svg>
               </div>
               <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-                SEO Services
+                Service de Consulting
               </h3>
               <p class="text-gray-500">
-                This is a wider card with supporting text below as a natural
-                content.
+                Ensemble, nous élaborons stratégies IT personnalisées,
+                optimisant efficacité, ressources et alignement.
               </p>
             </div>
             <!-- end service block -->
@@ -407,28 +407,34 @@
 
   <!-- Quote section start -->
   <section class="pt-20 pb-12 lg:pt-[80px]">
-<div class="bg-white dark:bg-gray-800 ">
-    <div class="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-        <h2 class="text-2xl font-extrabold text-black dark:text-white sm:text-3xl">
-            <span class="block">
-              Obtenez votre prochain consultation gratuitement !
-            </span>
-            <span class="block text-pink-500">
-              C'est aujourd'hui ou jamais.
-            </span>
+    <div class="bg-white dark:bg-gray-800">
+      <div
+        class="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20"
+      >
+        <h2
+          class="text-2xl font-extrabold text-black dark:text-white sm:text-3xl"
+        >
+          <span class="block">
+            Obtenez votre prochain consultation gratuitement !
+          </span>
+          <span class="block text-pink-500">
+            C'est aujourd'hui ou jamais.
+          </span>
         </h2>
         <div class="lg:mt-0 lg:flex-shrink-0">
-            <div class=" inline-flex rounded-md shadow">
-                <button type="button" class="py-4 px-6  bg-pink-600 hover:bg-pink-700 focus:ring-pink-500 focus:ring-offset-pink-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                  Réserver Une Consultation 
-                </button>
-            </div>
+          <div class="inline-flex rounded-md shadow">
+            <button
+              type="button"
+              class="py-4 px-6 bg-pink-600 hover:bg-pink-700 focus:ring-pink-500 focus:ring-offset-pink-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            >
+              Réserver Une Consultation
+            </button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-</section>
-<!-- Quote section end -->
-
+  </section>
+  <!-- Quote section end -->
 </template>
 <script>
 export default {
