@@ -295,7 +295,7 @@
               </svg>
             </div>
             <h4 class="text-pink-700 mb-3 text-xl font-semibold">
-              Sécurité Infra & Numérique
+              Sécurité Numérique
             </h4>
             <p class="text-body-color">
               Nous mettons en avant la sécurité de vos données et systèmes. Avec

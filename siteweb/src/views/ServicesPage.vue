@@ -185,8 +185,7 @@
                 Service de Consulting
               </h3>
               <p class="text-gray-500">
-                Ensemble, nous élaborons stratégies IT personnalisées,
-                optimisant efficacité, ressources et alignement.
+                Stratégies IT personnalisées pour optimiser vos ressources avec nous.
               </p>
             </div>
             <!-- end service block -->
@@ -225,11 +224,11 @@
                 </svg>
               </div>
               <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-                Social Content
+                Réseau &amp; Cablage
               </h3>
               <p class="text-gray-500">
-                This is a wider card with supporting text below as a natural
-                content.
+                Optimisez votre infrastructure grâce à notre expertise en réseau
+                et câblage.
               </p>
             </div>
             <!-- end service block -->
@@ -268,11 +267,11 @@
                 </svg>
               </div>
               <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-                Creative ads
+                Intégration
               </h3>
               <p class="text-gray-500">
-                This is a wider card with supporting text below as a natural
-                content.
+                Expertise en intégration technologique, nous optimisons vos
+                opérations.
               </p>
             </div>
             <!-- end service block -->
@@ -309,11 +308,11 @@
                 </svg>
               </div>
               <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-                Brand Identity
+                Sécurité Numérique
               </h3>
               <p class="text-gray-500">
-                This is a wider card with supporting text below as a natural
-                content.
+                Votre entreprise sous protection maximale de l'infras au
+                numérique.
               </p>
             </div>
             <!-- end service block -->
@@ -349,11 +348,10 @@
                 </svg>
               </div>
               <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-                Budget &amp; Marketing
+                Développement Digital
               </h3>
               <p class="text-gray-500">
-                This is a wider card with supporting text below as a natural
-                content.
+                Transformation numérique optimale pour votre entreprise
               </p>
             </div>
             <!-- end service block -->
