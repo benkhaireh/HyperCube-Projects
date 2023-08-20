@@ -170,22 +170,23 @@
                 <!-- icon -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-search"
-                  viewBox="0 0 16 16"
+                  width="50"
+                  viewBox="0 0 640 512"
                 >
                   <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" fill="rgb(190 24 93)"
-                  ></path>
+                    d="M576 48H224c-8.8 0-16 7.2-16 16v41.3c-14.8-6-31-9.3-48-9.3V64c0-35.3 28.7-64 64-64H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H336.8c-8.3-18-19.8-34.2-33.7-48H576c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16zM412.7 139.3c-4.6-4.6-5.9-11.5-3.5-17.4s8.3-9.9 14.8-9.9h88c8.8 0 16 7.2 16 16v88c0 6.5-3.9 12.3-9.9 14.8s-12.9 1.1-17.4-3.5l-27-27L401 273c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47 55.7-55.7-27-27zM160 272a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-144a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM133.3 400c-39.8 0-73.2 27.2-82.6 64H269.3c-9.5-36.8-42.9-64-82.6-64H133.3zm0-48h53.3C260.3 352 320 411.7 320 485.3c0 14.7-11.9 26.7-26.7 26.7H26.7C11.9 512 0 500.1 0 485.3C0 411.7 59.7 352 133.3 352z"
+                    fill="rgb(190 24 93)"
+                  />
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
+              <h3
+                class="text-lg leading-normal mb-2 font-semibold text-pink-700"
+              >
                 Service de Consulting
               </h3>
               <p class="text-gray-500">
-                Stratégies IT personnalisées pour optimiser vos ressources avec nous.
+                Stratégies IT personnalisées pour optimiser vos ressources avec
+                nous.
               </p>
             </div>
             <!-- end service block -->
@@ -209,26 +210,23 @@
                 <!-- icon -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-chat-square-dots"
-                  viewBox="0 0 16 16"
+                  width="50"
+                  viewBox="0 0 640 512"
                 >
                   <path
-                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
-                  ></path>
-                  <path
-                    d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
-                  ></path>
+                    d="M288 64c0 16.9-6.5 32.2-17.2 43.6l26.9 57.5c12.2-3.4 25-5.2 38.3-5.2c39 0 74.4 15.5 100.3 40.7l77.6-56.9c-1.3-5-1.9-10.3-1.9-15.7c0-35.3 28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64c-12.3 0-23.9-3.5-33.7-9.6l-77.6 56.9c9.8 19.4 15.3 41.4 15.3 64.6c0 18.5-3.5 36.2-9.9 52.5l67.3 40.4c10.7-8.1 24.1-12.9 38.5-12.9c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64c0-3.4 .3-6.7 .8-9.9l-67.4-40.4C419 428.5 379.8 448 336 448c-71.4 0-130.6-51.9-142-120H123.3c-9.5 23.5-32.5 40-59.3 40c-35.3 0-64-28.7-64-64s28.7-64 64-64c26.9 0 49.9 16.5 59.3 40H194c6.6-39.1 28.9-72.9 60.2-94.5l-26.9-57.6c-1.1 .1-2.2 .1-3.3 .1c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zm48 336a96 96 0 1 0 0-192 96 96 0 1 0 0 192z"
+                    fill="rgb(190 24 93)"
+                  />
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
+              <h3
+                class="text-lg leading-normal mb-2 font-semibold text-pink-700"
+              >
                 Réseau &amp; Cablage
               </h3>
               <p class="text-gray-500">
-                Optimisez votre infrastructure grâce à notre expertise en réseau
-                et câblage.
+                Profitez de notre expertise en matière de réseau pour améliorer
+                votre infrastructure.
               </p>
             </div>
             <!-- end service block -->
@@ -252,26 +250,23 @@
                 <!-- icon -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-badge-ad"
-                  viewBox="0 0 16 16"
+                  width="40"
+                  viewBox="0 0 512 512"
                 >
                   <path
-                    d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"
-                  ></path>
-                  <path
-                    d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"
-                  ></path>
+                    d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64c-35.3 0-64 28.7-64 64H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64c0 35.3 28.7 64 64 64v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448c35.3 0 64-28.7 64-64h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V280h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V176h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448c0-35.3-28.7-64-64-64V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H280V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H176V24zM160 128H352c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32zm192 32H160V352H352V160z"
+                    fill="rgb(190 24 93)"
+                  />
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
+              <h3
+                class="text-lg leading-normal mb-2 font-semibold text-pink-700"
+              >
                 Intégration
               </h3>
               <p class="text-gray-500">
-                Expertise en intégration technologique, nous optimisons vos
-                opérations.
+                Intégration efficace, nous mettons tout en œuvre pour maximiser
+                vos opérations.
               </p>
             </div>
             <!-- end service block -->
@@ -293,26 +288,29 @@
                 <!-- icon -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-card-checklist"
-                  viewBox="0 0 16 16"
+                  width="50"
+                  viewBox="0 0 512 512"
                 >
                   <path
-                    d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
-                  ></path>
+                    class="fa-primary"
+                    d="M256.7 0c-.2 0-.5 0-.7 0c-4.6 0-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c8.3 4 17.4 6 26.4 6V0h.7z"
+                    fill="rgb(113,115,119)"
+                  />
                   <path
-                    d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
-                  ></path>
+                    class="fa-secondary"
+                    d="M256 0c.2 0 .5 0 .7 0c4.6 0 9.2 1 13.4 2.9L458.4 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-8.3 4-17.4 6-26.4 6V0H256z"
+                    fill="rgb(190 24 93)"
+                  />
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
+              <h3
+                class="text-lg leading-normal mb-2 font-semibold text-pink-700"
+              >
                 Sécurité Numérique
               </h3>
               <p class="text-gray-500">
-                Votre entreprise sous protection maximale de l'infras au
-                numérique.
+                Nous assurons une protection maximale de votre entreprise, de
+                l'infra au numérique.
               </p>
             </div>
             <!-- end service block -->
@@ -336,62 +334,23 @@
                 <!-- icon -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-wallet2"
-                  viewBox="0 0 16 16"
+                  width="50"
+                  viewBox="0 0 512 512"
                 >
                   <path
-                    d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
-                  ></path>
+                    d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zm64 32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm384 0c0-13.3-10.7-24-24-24H184c-13.3 0-24 10.7-24 24s10.7 24 24 24H424c13.3 0 24-10.7 24-24z"
+                    fill="rgb(190 24 93)"
+                  />
                 </svg>
               </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-pink-700">
+              <h3
+                class="text-lg leading-normal mb-2 font-semibold text-pink-700"
+              >
                 Développement Digital
               </h3>
               <p class="text-gray-500">
-                Transformation numérique optimale pour votre entreprise
-              </p>
-            </div>
-            <!-- end service block -->
-          </div>
-          <div
-            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay=".3s"
-            style="
-              visibility: visible;
-              animation-duration: 1s;
-              animation-delay: 0.3s;
-              animation-name: fadeInUp;
-            "
-          >
-            <!-- service block -->
-            <div
-              class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
-            >
-              <div class="inline-block text-gray-900 mb-4">
-                <!-- icon -->
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="2rem"
-                  height="2rem"
-                  fill="currentColor"
-                  class="bi bi-funnel"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
-                  ></path>
-                </svg>
-              </div>
-              <h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-                Optimize conversions
-              </h3>
-              <p class="text-gray-500">
-                This is a wider card with supporting text below as a natural
-                content.
+                Une conversion digitale dans les règles de l'art pour votre
+                entreprise
               </p>
             </div>
             <!-- end service block -->
@@ -402,6 +361,145 @@
     </div>
   </section>
   <!-- Services section end -->
+
+  <!-- Customers section start -->
+
+  <section class="overflow-hidden pt-20 pb-12 lg:pt-[80px] lg:pb-[90px]">
+    <div class="container mx-auto">
+      <div class="-mx-4 flex flex-wrap">
+        <!-- Heading start -->
+        <header class="text-center mx-auto mb-12 lg:px-20">
+          <h2 class="text-2xl leading-normal mb-2 font-bold text-black capitalize">
+            Réputée à l'International
+          </h2>
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 100 60"
+            style="margin: 0 auto; height: 35px"
+            xml:space="preserve"
+          >
+            <circle
+              cx="50.1"
+              cy="30.4"
+              r="5"
+              class="stroke-pink-700"
+              style="fill: transparent; stroke-width: 2; stroke-miterlimit: 10"
+            ></circle>
+            <line
+              x1="55.1"
+              y1="30.4"
+              x2="100"
+              y2="30.4"
+              class="stroke-pink-700"
+              style="stroke-width: 2; stroke-miterlimit: 10"
+            ></line>
+            <line
+              x1="45.1"
+              y1="30.4"
+              x2="0"
+              y2="30.4"
+              class="stroke-pink-700"
+              style="stroke-width: 2; stroke-miterlimit: 10"
+            ></line>
+          </svg>
+          <p
+            class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2"
+          >
+          Passionné par notre métier, avec le client au premier plan.
+          </p>
+        </header>
+        <!-- End heading -->
+        <!-- row -->
+        <div
+          class="flex items-center flex-wrap justify-center pt-20 lg:px-20 mx-auto"
+        >
+          <img
+            src="/partners/ansice.jpg"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/ansie.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/arcep.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/arn.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/artp.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/bbs.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/belgacom.jpg"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/djibport.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/djibtelecom.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/doralehport.jpg"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/eu.gif"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/ing.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/iom.jpg"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/itu.jpg"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/mobile.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/orange.jpg"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/thales.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/togo.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          /><img
+            src="/partners/togotelecom.png"
+            alt="Hypercube Customer"
+            class="block w-32 max-h-28 mr-8 mb-12"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customers section end -->
 
   <!-- Quote section start -->
   <section class="pt-20 pb-12 lg:pt-[80px]">
