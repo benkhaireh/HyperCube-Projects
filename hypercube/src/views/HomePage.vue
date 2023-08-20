@@ -322,7 +322,9 @@
                 />
               </svg>
             </div>
-            <h4 class="text-pink-700 mb-3 text-xl font-semibold">Développement Digital</h4>
+            <h4 class="text-pink-700 mb-3 text-xl font-semibold">
+              Développement Digital
+            </h4>
             <p class="text-body-color">
               Nous façonnons l'avenir digital en exploitant les opportunités des
               technologies émergentes. Notre approche novatrice renforce la
@@ -978,79 +980,163 @@
             <h2
               class="text-dark mb-8 text-2xl font-bold sm:text-3xl capitalize"
             >
-              Les Entreprises Qui Ont Fait Confiance à Notre Expertise
+              Ceux Qui Ont Fait Confiance à Notre Expertise
             </h2>
           </div>
         </div>
 
         <div class="w-full px-4">
-          <div class="container m-auto grid grid-cols-4 gap-0">
-            <div class="w-full px-8 py-6 m-auto">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
-            </div>
-
-            <div class="w-full px-8 py-6 m-auto">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
-            </div>
-
-            <div class="w-full px-8 py-6 m-auto">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
-            </div>
-
-            <div class="w-full px-8 py-6 m-auto">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
-            </div>
-
-            <div class="w-full px-8 py-6 m-auto">
-              <img src="/xerox-logo.jpg" alt="Xerox" class="h-14 lg:w-36" />
-            </div>
-
+          <div class="container mx-auto grid grid-cols-6 gap-0">
             <div class="w-full px-8 py-6 m-auto">
               <img
-                src="/fortinet-logo.jpg"
-                alt="Fortinet"
-                class="h-14 lg:w-36"
+                src="/partners/ansice.jpg"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
               />
             </div>
 
             <div class="w-full px-8 py-6 m-auto">
               <img
-                src="/fortinet-logo.jpg"
-                alt="Fortinet"
-                class="h-14 lg:w-36"
+                src="/partners/ansie.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
               />
             </div>
 
             <div class="w-full px-8 py-6 m-auto">
               <img
-                src="/fortinet-logo.jpg"
-                alt="Fortinet"
-                class="h-14 lg:w-36"
+                src="/partners/arcep.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
               />
             </div>
 
             <div class="w-full px-8 py-6 m-auto">
               <img
-                src="/fortinet-logo.jpg"
-                alt="Fortinet"
-                class="h-14 lg:w-36"
+                src="/partners/arn.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
               />
             </div>
 
             <div class="w-full px-8 py-6 m-auto">
               <img
-                src="/fortinet-logo.jpg"
-                alt="Fortinet"
-                class="h-14 lg:w-36"
+                src="/partners/artp.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
               />
             </div>
 
             <div class="w-full px-8 py-6 m-auto">
-              <img src="/montran-logo.png" alt="Montran" class="h-14 lg:w-36" />
+              <img
+                src="/partners/bbs.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
             </div>
 
             <div class="w-full px-8 py-6 m-auto">
-              <img src="/montran-logo.png" alt="Montran" class="h-11 lg:w-32" />
+              <img
+                src="/partners/doralehport.jpg"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/belgacom.jpg"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/djibport.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/djibtelecom.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/eu.gif"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/ing.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/iom.jpg"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/itu.jpg"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/mobile.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/orange.jpg"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/thales.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/togotelecom.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
+            </div>
+
+            <div class="w-full px-8 py-6 m-auto">
+              <img
+                src="/partners/togo.png"
+                alt="Hypercube Customer"
+                class="w-32 max-h-28"
+              />
             </div>
           </div>
         </div>

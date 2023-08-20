@@ -409,7 +409,7 @@
           <p
             class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2"
           >
-          Passionné par notre métier, avec le client au premier plan.
+          Passionné par notre métier, avec le client au cœur de nos préoccupations
           </p>
         </header>
         <!-- End heading -->
