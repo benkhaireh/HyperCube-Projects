@@ -1240,12 +1240,16 @@
         </div>
         <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
           <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+            <!-- ====== Alert Section Start -->
+            <alert-comp title="" body="" />
+            <!-- ====== Alert Section End -->
             <form>
               <div class="mb-6">
                 <input
                   type="text"
                   placeholder="Votre nom et prénom"
                   class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                  v-model="formContact.fullname"
                 />
               </div>
               <div class="mb-6">
@@ -1253,6 +1257,7 @@
                   type="email"
                   placeholder="Votre adresse e-mail"
                   class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                  v-model="formContact.email"
                 />
               </div>
               <div class="mb-6">
@@ -1260,6 +1265,15 @@
                   type="text"
                   placeholder="Votre téléphone"
                   class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                  v-model="formContact.phone"
+                />
+              </div>
+              <div class="mb-6">
+                <input
+                  type="text"
+                  placeholder="L'objet de votre mail"
+                  class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                  v-model="formContact.subject"
                 />
               </div>
               <div class="mb-6">
@@ -1267,12 +1281,14 @@
                   rows="6"
                   placeholder="Votre message"
                   class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+                  v-model="formContact.message"
                 ></textarea>
               </div>
               <div>
                 <button
                   type="submit"
                   class="bg-pink-700 border-pink-700 w-full rounded border p-3 text-white transition hover:bg-opacity-90"
+                  @submit.prevent="sendContact"
                 >
                   Envoyer le message
                 </button>
@@ -2162,6 +2178,9 @@
               Lisez notre politique de confidentialité</a
             >.
           </div>
+          <!-- ====== Alert Section Start -->
+            <alert-comp title="" body="" />
+            <!-- ====== Alert Section End -->
         </form>
       </div>
     </div>
@@ -2169,17 +2188,24 @@
   <!-- ====== Newsletter Section End -->
 </template>
 <script>
+import alertComp from "../components/Alert.vue";
 export default {
   name: "HomePage",
+  components: { alertComp },
   data() {
     return {
       readActivated: false,
+      title: '',
+      body: 'Message de test.'
     };
   },
   methods: {
-    activateReadMore() {
+    activateReadMore: function() {
       this.readActivated = !this.readActivated;
     },
+    SendContact: function() {
+      //
+    }
   },
 };
 </script>
