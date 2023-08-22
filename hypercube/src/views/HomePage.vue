@@ -1244,38 +1244,10 @@
             <alert-comp title="" body="" />
             <!-- ====== Alert Section End -->
             <form>
-              <div class="mb-6">
-                <input
-                  type="text"
-                  placeholder="Votre nom et prénom"
-                  class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                  v-model="formContact.fullname"
-                />
-              </div>
-              <div class="mb-6">
-                <input
-                  type="email"
-                  placeholder="Votre adresse e-mail"
-                  class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                  v-model="formContact.email"
-                />
-              </div>
-              <div class="mb-6">
-                <input
-                  type="text"
-                  placeholder="Votre téléphone"
-                  class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                  v-model="formContact.phone"
-                />
-              </div>
-              <div class="mb-6">
-                <input
-                  type="text"
-                  placeholder="L'objet de votre mail"
-                  class="text-body-color border-[f0f0f0] focus:border-pink-700 w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-                  v-model="formContact.subject"
-                />
-              </div>
+              <input-comp :modelValue="formContact.fullname" placeholder="Votre nom et prénom" type="text"/>
+              <input-comp :modelValue="formContact.email" placeholder="Votre adresse e-mail" type="email"/>
+              <input-comp :modelValue="formContact.phone" placeholder="Votre numéro mobile" type="number"/>
+              <input-comp :modelValue="formContact.subject" placeholder="L'objet de votre mail" type="text"/>
               <div class="mb-6">
                 <textarea
                   rows="6"
@@ -2179,8 +2151,8 @@
             >.
           </div>
           <!-- ====== Alert Section Start -->
-            <alert-comp title="" body="" />
-            <!-- ====== Alert Section End -->
+          <alert-comp title="" body="" />
+          <!-- ====== Alert Section End -->
         </form>
       </div>
     </div>
@@ -2189,23 +2161,73 @@
 </template>
 <script>
 import alertComp from "../components/Alert.vue";
+import inputComp from "../components/Input.vue";
+import axios from "axios";
 export default {
   name: "HomePage",
-  components: { alertComp },
+  components: { alertComp, inputComp },
   data() {
     return {
-      readActivated: false,
-      title: '',
-      body: 'Message de test.'
+      title: "",
+      body: "",
+      formContact: {
+        fullname: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      },
     };
   },
   methods: {
-    activateReadMore: function() {
+    activateReadMore: function () {
       this.readActivated = !this.readActivated;
     },
-    SendContact: function() {
-      //
-    }
+    SendContact: function () {
+      const header = {
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      };
+
+      const body = JSON.stringify(this.formContact);
+
+      const getting = async () => {
+                let data = await axios
+                    .post("/engine/api/contact", body, header)
+                    .then((response) => {
+                        return response.data;
+                    })
+                    .catch(function (error) {
+                        if (error.response) {
+                            console.error(error.response);
+                        }
+                    });
+                if (data.code == "CREDENTIALS") {
+                    const errors = Object.keys(data.message);
+                    for (let i = 0; i < errors.length; i++) {
+                        const errorTxt = data.message[errors[i]];
+                        this.error[errors[i]] = errorTxt.toString();
+                    }
+                } else if (data.code == "SUCCESS") {
+                    this.title = "success";
+                    this.body = data.message;
+                    this.formContact.fullname = "";
+                    this.formContact.email = "";
+                    this.formContact.phone = "";
+                    this.formContact.subject = "";
+                    this.formContact.message = "";
+                } else if (data.code == "UNKNOWN") {
+                    this.title = "error";
+                    this.body = data.message;
+                } else {
+                    console.log(data);
+                }
+            };
+
+            getting();
+    },
   },
 };
 </script>
